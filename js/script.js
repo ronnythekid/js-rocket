@@ -1,3 +1,23 @@
+
+// Do stuff function.
+var doCoolStuff =  function () {
+    var val = document.getElementById("cool");
+    val.classList.toggle("red");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var car = {
     make: 'VW',
     type: 'Polo',
