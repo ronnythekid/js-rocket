@@ -17,6 +17,10 @@ h1 {
     font-size: 50px;
 }
 
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
 
 
 .left-col {
@@ -32,6 +36,15 @@ h1 {
 .interface {
     text-align: center;
     padding: 30px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.interface h1 {
+    margin-bottom: 20px;
 }
 
 .button {
